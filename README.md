@@ -8,7 +8,7 @@ Repository as exercise for the course PBfB2018 at RUG
 
 # travis_proselint
 
-[![Travis CI logo](travis_proselint/TravisCI.png)](https://travis-ci.org)
+[![Travis CI logo](../travis_proselint/TravisCI.png)](https://travis-ci.org)
 
 [![Build Status](https://travis-ci.org/richelbilderbeek/travis_proselint.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_proselint)
 
