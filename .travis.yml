@@ -1,3 +1,19 @@
+#Travis proselint
+install:
+  - sudo pip install proselint
+
+script: 
+  - proselint my_prose.md
+
+#Travis markup check
+  install:
+  - sudo apt-get install npm
+  - sudo npm install -g markdown-link-check
+
+script: 
+  - ./check_dead_links
+
+#Travis python
 install:
   # Get my folder
   - my_github=${PWD##*/}  
